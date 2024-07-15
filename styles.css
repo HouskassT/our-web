@@ -110,10 +110,10 @@ body {
 
 hr {
   margin: 1rem 0;
-  color: inherit;
+  color: white;
   border: 0;
   border-top: 1px solid;
-  opacity: 0.25;
+  opacity: 100;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -11121,6 +11121,7 @@ body {
 
 .projects-section {
   padding: 10rem 0;
+  background: linear-gradient( rgb(23, 90, 255), rgb(180, 180, 180));
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11143,7 +11144,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(rgb(180, 180, 180), rgb(23, 90, 255));
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11162,6 +11163,7 @@ body {
 
 .contact-section {
   padding-top: 5rem;
+  background:rgb(23, 90, 255);
 }
 .contact-section .card {
   border: 0;
